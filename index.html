@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator App | FrontEnd Mentor</title>
+    <!---Google Style--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+
+    <!---CSS--->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images\logo.svg" alt="Logo of the Tip Calculator" class="logo-img">
+    </header>    
+     <!------------Main------------------->
+        <div class="main-container">
+             <!------------Left Container------------------->
+            <div class="left-container">
+                <div class="input-container">   
+                    <!------------Bill------------------->             
+               <h1>Bill <span class="bill-zero">Can't be zero</span></h1>
+               <div>
+                <img src="images\icon-dollar.svg" alt="Dollar Image" class="dollar-img">
+                <input type="number" class="bill-amount" min="1" max="" oninput="return onlyNumbers(event)">
+               </div>               
+               </div>
+               <!------------Tip------------------->
+            <div class="tip-container">
+                <h1>Select Tip %</h1>
+                <!------------Tip Buttons------------------->
+                <div class="tip-btn">
+                    <button class="tip-5 grp-tip-btn" data-tip="5" disabled>5%</button>
+                    <button class="tip-10 grp-tip-btn" data-tip="10" disabled>10%</button>
+                    <button class="tip-15 grp-tip-btn" data-tip="15" disabled>15%</button>
+                    <button class="tip-25 grp-tip-btn" data-tip="25" disabled>25%</button>
+                    <button class="tip-50 grp-tip-btn" data-tip="50" disabled>50%</button>
+                    <input type="number" class="custom" placeholder="Custom" oninput="return onlyNumbers(event)" disabled>
+                </div>
+            </div>
+            <!------------Number of People------------------->
+            <div class="number-of-people">
+                <h1>Number of People <span class="zero">Can't be zero</span></h1>
+                <div>
+                    <img src="images\icon-person.svg" alt="Person Image" class="person-img">
+                    <input type="number" class="number-people" min="1" max="" oninput="return onlyNumbers(event)">
+                </div>
+                
+            </div>
+        </div>
+        <!------------Right Container------------------->
+        <div class="right-container">
+            <!------------Tip/Total Amount/Person------------------->
+            <div class="total-amount">
+                <div>
+                <h1>Tip Amount </h1>
+                <h1 class="person">/ person</h1> 
+                </div>
+                <h1 class="currency-sign">$<span class="amount">0.00</span></h1>
+            </div>
+            <div class="total-people">
+                <div>
+                <h1>Total</h1>
+                <h1 class="person">/ person</h1>
+                </div>
+                <h1 class="currency-sign">$<span class="people">0.00</span></h1>
+            </div>
+            <!------------Reset Button------------------->
+            <div>
+                <button class="reset-btn upper-case">Reset</button>
+            </div>                      
+        </div>            
+        </div>
+    </main>  
+
+   <!---Attribution--->
+    <footer class="attribution">
+       <h6>Challenge by <a href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX" target="_blank">Frontend Mentor</a>.
+           Coded by <a href="https://github.com/aratidsa/Advice-Generator-App-FrontEndMentor-Challenge" target="_blank">Arati D'sa</a> Here.</h6>
+    </footer>
+
+    <script src="demo.js"></script>
+</body>
+</html>
