@@ -17,6 +17,7 @@
         <img src="logo.svg" alt="Logo of the Tip Calculator" class="logo-img">
     </header>    
      <!------------Main------------------->
+    <main> 
         <div class="main-container">
              <!------------Left Container------------------->
             <div class="left-container">
@@ -25,7 +26,7 @@
                <h1>Bill <span class="bill-zero">Can't be zero</span></h1>
                <div>
                 <img src="icon-dollar.svg" alt="Dollar Image" class="dollar-img">
-                <input type="number" class="bill-amount" min="1" max="" oninput="return onlyNumbers(event)">
+                <input type="number" class="bill-amount" min="1" max="" oninput="return onlyNumbers(event)" aria-labelledby="bill">
                </div>               
                </div>
                <!------------Tip------------------->
@@ -46,7 +47,7 @@
                 <h1>Number of People <span class="zero">Can't be zero</span></h1>
                 <div>
                     <img src="icon-person.svg" alt="Person Image" class="person-img">
-                    <input type="number" class="number-people" min="1" max="" oninput="return onlyNumbers(event)">
+                    <input type="number" class="number-people" min="1" max="" oninput="return onlyNumbers(event)" aria-labelledby="numberOfPeople">
                 </div>
                 
             </div>
@@ -78,8 +79,8 @@
 
    <!---Attribution--->
     <footer class="attribution">
-       <h6>Challenge by <a href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX" target="_blank">Frontend Mentor</a>.
-           Coded by <a href="https://github.com/aratidsa/Tip-Calculator-App-Frontend-Mentor" target="_blank">Arati D'sa</a> Here.</h6>
+       <p>Challenge by <a href="https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX" target="_blank">Frontend Mentor</a>.
+           Coded by <a href="https://github.com/aratidsa/Tip-Calculator-App-Frontend-Mentor" target="_blank">Arati D'sa</a> Here.</p>
     </footer>
 
     <script src="app.js"></script>
