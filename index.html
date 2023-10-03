@@ -24,7 +24,7 @@
                 <div class="input-container">   
                     <!------------Bill------------------->             
                <h1>Bill <span class="bill-zero">Can't be zero</span></h1>
-               <div>
+               <div id="bill-details">
                 <img src="icon-dollar.svg" alt="Dollar Image" class="dollar-img">
                 <input type="number" class="bill-amount" min="1" max="" oninput="return onlyNumbers(event)" aria-labelledby="bill">
                </div>               
@@ -45,7 +45,7 @@
             <!------------Number of People------------------->
             <div class="number-of-people">
                 <h1>Number of People <span class="zero">Can't be zero</span></h1>
-                <div>
+                <div id="numberOfPeople">
                     <img src="icon-person.svg" alt="Person Image" class="person-img">
                     <input type="number" class="number-people" min="1" max="" oninput="return onlyNumbers(event)" aria-labelledby="numberOfPeople">
                 </div>
