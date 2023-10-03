@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://github.com/aratidsa/Tip-Calculator-App-Frontend-Mentor
 - Live Site URL: https://tip-calculator-app-design.netlify.app/
 
 ## My process
