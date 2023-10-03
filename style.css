@@ -346,7 +346,7 @@ footer{
 
 footer a
 {
-    color:hsl(var(--clr-veryDarkCyan));
+    color:rgb(104, 61, 68);
     text-decoration: none;
 }
 
