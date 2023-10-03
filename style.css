@@ -123,63 +123,63 @@ input:focus{
     max-height:20.31rem;
     margin-top:3.75rem;
     background-color:hsl(var(--clr-white));
-    border-radius: 20px;
-    font-size:15px;
+    border-radius: 1.25rem;
+    font-size:0.94rem;
     display: flex;
-    padding:30px 30px 40px 30px;
+    padding:1.88rem 1.88rem 2.5rem 1.88rem;
 }
 h1
 {
-    font-size:13px;
+    font-size:0.81rem;
 }
 /* Left Container */
 .left-container{
 
     width:50%;
-    margin-right:30px;
+    margin-right:1.88rem;
 }
 /* Right Container */
 .right-container{
 
     width:20rem;
     background-color: hsl(var(--clr-veryDarkCyan));
-    border-radius:10px;
-    padding:2.81rem 30px;
+    border-radius:0.63rem;
+    padding:2.81rem 1.88rem;
     color:hsl(var(--clr-white));
-    margin-bottom:-10px;
+    margin-bottom:-0.63rem;
 }
 
 /* Bill */
 .bill-amount,.number-people
 {
     width:20.63rem;
-    height:10px;
-    padding:15px;
+    height:0.63rem;
+    padding:0.94rem;
     text-align: right;
-    font-size:20px;
+    font-size:1.25rem;
     background-color: hsl(var(--clr-veryLightGrayishCyan));
     border:1px solid hsl(var(--clr-veryLightGrayishCyan));
     color:hsl(var(--clr-veryDarkCyan));
-    border-radius: 5px;
+    border-radius: 0.31rem;
 }
 .dollar-img
 {
     position:absolute;
-    width:10px;
-    height:15px;
-    margin-top:15px;
-    margin-left:18px;
+    width:0.63rem;
+    height:0.94rem;
+    margin-top:0.94rem;
+    margin-left:1.13rem;
 }
 
 .input-container
-{   margin-top:5px;
+{   margin-top:0.31rem;
     position:relative;
-    margin-bottom:30px;
+    margin-bottom:1.88rem;
 }
 
 .input-container h1
 {  
-    margin-bottom:5px;
+    margin-bottom:0.31rem;
 }
 
 .bill-zero
@@ -196,18 +196,18 @@ h1
 
 .tip-container h1
 {
-    margin-bottom:10px;
+    margin-bottom:0.63rem;
 }
 
 .tip-5,.tip-10,.tip-15,.tip-25,.tip-50
 {
     width:7rem;
-    height:40px;   
-    font-size:20px;
+    height:2.5rem;   
+    font-size:1.25rem;
     border:none;
     background-color: hsl(var(--clr-veryDarkCyan));
     color:hsl(var(--clr-white));
-    border-radius: 5px;
+    border-radius: 0.31rem;
     cursor: pointer;
 }
 
@@ -223,22 +223,22 @@ h1
     color:hsl(var(--clr-veryDarkCyan));
     background-color: hsl(var(--clr-veryLightGrayishCyan));
     width:5.19rem;
-    height:40px;   
-    font-size:20px;
-    border-radius: 5px;
+    height:2.5rem;   
+    font-size:1.25rem;
+    border-radius: 0.31rem;
     border:transparent;
     text-align: right;
-    padding:0 15px;
+    padding:0 0.94rem;
     cursor: pointer;
 }
 
 .custom-input
 {      
     text-align: right;
-    padding:3px 15px 0 0;
+    padding:0.19rem 0.94rem 0 0;
     width:6.25rem;
     height:2.06rem;
-    margin-left:-7px;
+    margin-left:-0.44rem;
     color:hsl(var(--clr-veryDarkCyan));
 } 
 .custom-input:hover
@@ -251,26 +251,26 @@ h1
 .tip-btn
 {
     display:grid;
-    grid-gap: 10px;
+    grid-gap: 0.63rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);  
-    margin-bottom:30px;    
+    margin-bottom:1.88rem;    
 }
 
 /* Number Of People */
 .number-of-people h1
 {
-    margin-bottom:10px;
+    margin-bottom:0.63rem;
 }
 
 /* person Image*/
 .person-img
 {
     position:absolute;
-    width:15px;
-    height:15px;
-    margin-top:15px;
-    margin-left:18px;
+    width:0.94rem;
+    height:0.94rem;
+    margin-top:0.94rem;
+    margin-left:1.13rem;
 }
 
 .zero
@@ -282,13 +282,13 @@ h1
 
 /* Tip/Person & Amount */
 .person{
-   font-size:10px;
+   font-size:0.63rem;
    color:hsl(var(--clr-darkGrayishCyan));
 }
 
 .total-amount
 {
-   margin-bottom:40px;
+   margin-bottom:2.5rem;
    display:flex;
    justify-content: space-between;
 }
@@ -297,40 +297,40 @@ h1
 .currency-sign
 {
     color:hsl(var(--clr-strongCyan));
-    font-size:35px;  
+    font-size:2.19rem;  
 } 
 
 /* Amount */
 .amount{
-    margin-top:-10px;
+    margin-top:-0.63rem;
 }
 
 /* Total People */
 .total-people
 {
-  margin-bottom:90px;
+  margin-bottom:5.63rem;
   display:flex;
   justify-content: space-between;
-  margin-top:-10px;
+  margin-top:-0.63rem;
 }
 
 .people
 { 
-  margin-top:-5px;
+  margin-top:-0.31rem;
 }
 
 /* Reset Button */
 .reset-btn
 {
     width:20rem;
-    height:40px;  
+    height:2.5rem;  
     text-align: center;
-    font-size:20px;
+    font-size:1.25rem;
     background-color: hsl(var(--clr-strongCyan));
     color:hsl(var(--clr-veryDarkCyan));
     border:none;
-    font-size:15px;
-    border-radius: 5px;
+    font-size:0.94rem;
+    border-radius: 0.31rem;
     cursor:pointer;
 }
 
@@ -341,7 +341,7 @@ h1
 
 /* Footer */
 footer{
-    font-size: 15px;
+    font-size: 0.94rem;
 } 
 
 footer a
@@ -353,21 +353,20 @@ footer a
 /* Media Query */
 @media screen and (max-width:900px) {
     /* Components */
-  /*   body {
-min-height:10vh;
-    } */
+
 header
 {
-    margin-top:30px;
+    margin-top:1.88rem;
 }
 
 /* Main Container */
 .main-container
 {
-    width:20rem;
-    margin-top:30px;
+    width: 19.68rem;
+    margin-top:1.88rem;
     height:100%;
-    padding:20px 30px 19.38rem 30px;
+    padding:1.25rem 1.88rem 19.38rem 1.88rem;
+    margin-left:-0.38rem;
 }
 /* Left Container */
 .left-container
@@ -379,21 +378,21 @@ header
 /* Right Container */
 .right-container
 {
-    width:20rem;
+    width:17.06rem;
     margin-top:23.75rem;
-    margin-left:-10px;
+    margin-left:-0.63rem;
     position:absolute;
-    padding:2.81rem 30px 30px 30px;
+    padding:2.81rem 1.88rem 1.88rem 1.88rem;
 }
 /* Bill */
 .bill-amount,.number-people
 {
-    width:18.13rem;
+    width:17.81rem;
 }
 
 .input-container
 {  
-    margin-bottom:20px;
+    margin-bottom:1.25rem;
 }
 
 .bill-zero
@@ -405,7 +404,7 @@ header
 /* Tip */
 .tip-container
 {
-    margin-bottom:-10px; 
+    margin-bottom:-0.63rem; 
 }
 /* Tip Buttons */
 .tip-btn
@@ -416,7 +415,7 @@ header
 }
 .tip-5,.tip-10,.tip-15,.tip-25,.tip-50
 {
-    width:155px;
+    width:9.56rem;
 }
 
 
@@ -429,12 +428,12 @@ header
 /* Number Of People */
 .number-of-people h1
 {
-    margin-bottom:10px;
+    margin-bottom:0.63rem;
 }
 
 .zero
 { 
-    margin-left:5rem;
+    margin-left:4.69rem;
 }
 
 .number-of-people
@@ -446,45 +445,45 @@ header
 
 .total-amount
 {
-    margin-bottom:20px; 
+    margin-bottom:1.25rem; 
 }
 
 /* Currency Symbol */
 .currency-sign
 {
-    font-size: 30px;  
-    margin-top:-5px;
+    font-size: 1.88rem;  
+    margin-top:-0.31rem;
 } 
 
 /* Amount */
 .amount{
-    margin-top:-10px;
+    margin-top:-0.63rem;
 }
 
 /* Total People */
 .total-people
 {
-   margin-bottom:20px;
+   margin-bottom:1.25rem;
 }
 
 .people
 { 
-    margin-top:-5px;
+    margin-top:-0.31rem;
 }
 
 /* Reset Button */
 .reset-btn
 {
-    width:18.75rem;
-    height:40px;  
-    margin-left:-10px;
-    margin-bottom:-50px;
+    width:18.31rem;
+    height:2.5rem;  
+    margin-left:-0.63rem;
+    margin-bottom:-3.13rem;
 }
 
 /* Footer */
 footer
 {
-    margin-left:15px;
+    margin-left:0.94rem;
 } 
 }
 
