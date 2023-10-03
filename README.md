@@ -21,6 +21,14 @@ Users should be able to:
 -	View the optimal layout for the app depending on their device's screen size
 -	See hover states for all interactive elements on the page
 ### Screenshot
+- Desktop
+  
+![Screenshot 2023-10-03 181019](https://github.com/aratidsa/Tip-Calculator-App-Frontend-Mentor/assets/128802362/474faf45-54f6-49fe-b1e1-f73065063cc3)
+
+- Mobile
+  
+  ![image](https://github.com/aratidsa/Tip-Calculator-App-Frontend-Mentor/assets/128802362/6b285fa1-3ac0-48e7-90e4-55e5210be5ca)
+
 
 ### Links
 
